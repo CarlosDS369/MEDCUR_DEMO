@@ -2,7 +2,7 @@
   "name": "cotizador",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://CarlosDS369.github.io/MEDCUR_DEMO",
+  "homepage":"http://carlosds369.github.io/medcur_demo",
   "dependencies": {
     "@react-pdf/renderer": "^2.1.1",
     "@testing-library/jest-dom": "^5.16.1",
