@@ -4,32 +4,33 @@ import "../css/MenuContenido.css"
 import { Icon } from '@iconify/react';
 import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table';
 import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
-import Personal from '../Usuarios/Registrar/RegistrarPersonal';
-import Clinicas from './Clinicas/AdministrarClinicas'
-import { responsive } from './MenuAdministradores';
+import Personal from './Registrar/RegistrarPersonal';
+import RegistrarClinicas from './Registrar/RegistrarClinicas';
+import RegisterPatients from './Registrar/RegistrarPacientes';
 
 
-function AdministrarMenuContenido() {
+function MenuContenido() {
       /*========================== Mostrar/Ocultar =========================*/
   const [show, setShow] = useState(true);
   const [show2, setShow2] = useState(true);
   const [show3, setShow3] = useState(true);
   return (
-    <div id="expand">
+    
+    <div id='expand'>
 
-
-      <div  className='titulo'>
+       <div  className='titulo'>
       <h2>Usuarios</h2>
       </div>
 
-        <div  className=''>
+
+        <div  className='table size'>
 
     <Table >
       {/*========================== Titulos Tabla ==========================*/}
       <thead>
         <tr >
-          <th  className='ocultar' > Clinicas</th>
-          <th className='ocultar'> Personal</th>
+          <th className='ocultar' > Clinicas </th>
+          <th  className='ocultar'> Personal</th>
           <th className='ocultar'> Pacientes</th>
         </tr>
       </thead>
@@ -45,9 +46,9 @@ function AdministrarMenuContenido() {
                   setShow3(true);
                 }}
               >
-  Clinicas
+                Clinicas
                 {" "}
-                {show ?<Icon icon="emojione-monotone:hospital"  width={"20px"}/>: <Icon icon="emojione:hospital" width={"20px"} />  }{" "}
+                {show ? <Icon icon="emojione-monotone:hospital"  width={"20px"}/>: <Icon icon="emojione:hospital" width={"20px"} />  }{" "}
 
 
               </button>
@@ -55,7 +56,9 @@ function AdministrarMenuContenido() {
                 <div></div>
               ) : (
                 <div className="personal">
-                  <Clinicas />
+
+                  < RegistrarClinicas />
+               
 
                 </div>
               )}
@@ -74,8 +77,7 @@ function AdministrarMenuContenido() {
                 }}
               >
 
-Personal
-                {" "}
+                Personal
                 {show2 ? <Icon icon="fa6-solid:user-doctor" width={"20px"}  /> : <Icon icon="fa6-solid:user-doctor"  color='orange'  width={"20px"} />  }{" "}
               </button>
               {show2 ? (
@@ -85,7 +87,7 @@ Personal
  
                   {/*========================== Llamado al Componente ==========================*/}
                        
-              {/*     <Personal /> */}
+                  <Personal />
                 </div>
               )}
             </td>
@@ -101,8 +103,7 @@ Personal
                   setShow(true);
                 }}
               >
-
-             Pacientes
+                Pacientes
                 {" "}
                 {show3 ? <Icon icon="ri:health-book-fill"   width={"20px"} /> :  <Icon icon="icon-park:health"  width={"20px"}/>           }{" "}
               </button>
@@ -115,9 +116,9 @@ Personal
                        
              
 
-             {/*      <Personal />
+                  <RegisterPatients  />
 
- */}
+
                 </div>
               )}
             </td>
@@ -131,4 +132,4 @@ Personal
   )
 }
 
-export default AdministrarMenuContenido
+export default MenuContenido

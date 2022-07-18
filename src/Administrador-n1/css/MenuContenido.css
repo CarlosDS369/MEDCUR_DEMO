@@ -1,24 +1,41 @@
-
-.menu-contenido{
-    position: absolute;
-    width: calc(100%  - 60px ) ;
-	  top:60px;
-    left: 60px;
+/* Tamaño Tablas Menus */
+.table.size{
+  width: 40%;
+  
 }
+
+button{
+  border: none;
+}
+button:visited { 
+    text-decoration: underline;
+    color:#000;
+}
+
+button:focus{
+  text-decoration:underline solid  2px rgba(63, 26, 133, 0.616);
+}
+
 
 .sn-boton{
   border: none;
   background-color: rgba(0, 0, 0, 0);
 }
 
+.ocultar{
+  display: none;
+}
 
 
 
+#sidebarCollaps{
+  float: left;
+}
   .personal{
     position: absolute;
    left: 0px;
    width: calc(100% );
-  top: 100px;
+  top: 120px;
   }
 
   #content{
@@ -26,13 +43,7 @@
     
   }
 
-  #left{
-
-  }
-
-  #right{
-
-  }
+  
 
   input{
    border-radius: 10px;
@@ -86,6 +97,10 @@ svg.iconify.iconify--emojione-monotone , svg.iconify.iconify--fa6-solid ,   svg.
      
       
  
+
+    .contenido.slider{
+       top: 0px;
+    }
     
     
   

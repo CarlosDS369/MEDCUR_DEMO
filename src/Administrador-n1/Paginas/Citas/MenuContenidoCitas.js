@@ -2,13 +2,12 @@ import React from 'react'
 import { useState } from 'react';
 import "../../css/MenuContenido.css"
 import { Icon } from '@iconify/react';
-import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table';
+import { Table} from 'react-super-responsive-table';
 import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
-import MenuCitas from './MenuCitas.jsx'
-
 
 
 import HistoriaClinica from './HistoriaClinica';
+import Prueba from './Prueba';
 
 
 function MenuContenidoCitas() {
@@ -18,19 +17,25 @@ function MenuContenidoCitas() {
     const [show3, setShow3] = useState(true);
     const [show4, setShow4] = useState(true);
     return (
-        <div className='Paginas'>
-            <MenuCitas />
+       
+       
+       <div id='expand'>
 
-            <div className='menu-contenido'>
+<div  className='titulo'>
+    <h2>Consultas</h2>
+      </div>
+
+        
+            <div >
 
                 <Table >
                     {/*========================== Titulos Tabla ==========================*/}
                     <thead>
                         <tr >
-                            <th > Historia clínica</th>
-                            <th > Consultas externas</th>
-                            <th > Interconsulta</th>
-                            <th > Estudios de laboratorio</th>
+                            <th className='ocultar'> Historia clínica</th>
+                            <th  className='ocultar'> Consultas externas</th>
+                            <th   className='ocultar'> Interconsulta</th>
+                            <th  className='ocultar'> Estudios de laboratorio</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -46,8 +51,9 @@ function MenuContenidoCitas() {
                                         setShow4(true);
                                     }}
                                 >
+                                    Historia clínica
                                     {" "}
-                                    {show ? <Icon icon="bi:journal-medical" color="gray" width="40" /> : <Icon icon="bi:journal-medical" color="#0d6efd" width="50" />}{" "}
+                                    {show ? <Icon icon="bi:journal-medical" color="gray" width="20" /> : <Icon icon="bi:journal-medical" color="#0d6efd" width="20" />}{" "}
 
 
                                 </button>
@@ -77,16 +83,17 @@ function MenuContenidoCitas() {
                                         setShow4(true);
                                     }}
                                 >
-                                    {show2 ? <Icon icon="fa-solid:notes-medical" color="gray" width="34" /> : <Icon icon="fa-solid:notes-medical" color="#0d6efd" width="40" />}{" "}
+                                     Consultas externas
+                                    {show2 ? <Icon icon="fa-solid:notes-medical" color="gray" width="20" /> : <Icon icon="fa-solid:notes-medical" color="#0d6efd" width="20" />}{" "}
                                 </button>
                                 {show2 ? (
                                     <div></div>
                                 ) : (
-                                    <div className="personal">
+                                    <div className="personal prueba">
 
                                         {/*========================== Llamado al Componente ==========================*/}
 
-                                     
+                                     <Prueba/>
 
                                     </div>
                                 )}
@@ -104,8 +111,9 @@ function MenuContenidoCitas() {
                                         setShow(true);
                                     }}
                                 >
+                                     Interconsulta
                                     {" "}
-                                    {show3 ? <Icon icon="fa-solid:notes-medical" color="gray" width="34" /> : <Icon icon="fa-solid:notes-medical" color="#0d6efd" width="40" />}{" "}
+                                    {show3 ? <Icon icon="fa-solid:notes-medical" color="gray" width="20" /> : <Icon icon="fa-solid:notes-medical" color="#0d6efd" width="20" />}{" "}
                                 </button>
                                 {show3 ? (
                                     <div></div>
@@ -133,8 +141,9 @@ function MenuContenidoCitas() {
                                         setShow(true);
                                     }}
                                 >
+                                   Estudios de laboratorio
                                     {" "}
-                                    {show4 ? <Icon icon="bi:file-earmark-medical" color="gray" width="40" /> : <Icon icon="bi:file-earmark-medical" color="#0d6efd" width="50" />}{" "}
+                                    {show4 ? <Icon icon="bi:file-earmark-medical" color="gray" width="20" /> : <Icon icon="bi:file-earmark-medical" color="#0d6efd" width="20" />}{" "}
                                 </button>
                                 {show4 ? (
                                     <div></div>
