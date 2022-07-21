@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff6835c7.css",
-    "main.js": "/static/js/main.3a8973bc.js",
+    "main.js": "/static/js/main.fa8b7648.js",
     "static/js/787.0d60e133.chunk.js": "/static/js/787.0d60e133.chunk.js",
     "static/media/slider.jpg": "/static/media/slider.4a428f9681a39e5ff37a.jpg",
     "static/media/mision.png": "/static/media/mision.1bccde9ff1d3fc650f9b.png",
@@ -13,11 +13,11 @@
     "static/media/logo-login.svg": "/static/media/logo-login.ff233c1a2761f60e9e5d544c059035e4.svg",
     "index.html": "/index.html",
     "main.ff6835c7.css.map": "/static/css/main.ff6835c7.css.map",
-    "main.3a8973bc.js.map": "/static/js/main.3a8973bc.js.map",
+    "main.fa8b7648.js.map": "/static/js/main.fa8b7648.js.map",
     "787.0d60e133.chunk.js.map": "/static/js/787.0d60e133.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff6835c7.css",
-    "static/js/main.3a8973bc.js"
+    "static/js/main.fa8b7648.js"
   ]
 }
