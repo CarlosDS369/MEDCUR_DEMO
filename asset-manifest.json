@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff6835c7.css",
-    "main.js": "/static/js/main.aa9b3f72.js",
-    "static/js/787.0d60e133.chunk.js": "/static/js/787.0d60e133.chunk.js",
-    "static/media/slider.jpg": "/static/media/slider.4a428f9681a39e5ff37a.jpg",
-    "static/media/mision.png": "/static/media/mision.1bccde9ff1d3fc650f9b.png",
-    "static/media/img1.png": "/static/media/img1.ed4ca40d36c079a70477.png",
-    "static/media/vision.png": "/static/media/vision.bc43a96e7c1a8bd101fc.png",
-    "static/media/letras.png": "/static/media/letras.6d859104950af404b871.png",
-    "static/media/logo_letras_horizontal.png": "/static/media/logo_letras_horizontal.db4b718793b4d5258554.png",
-    "static/media/personal-medico.png": "/static/media/personal-medico.50889e3222ae9aebe85a.png",
-    "static/media/logo-login.svg": "/static/media/logo-login.ff233c1a2761f60e9e5d544c059035e4.svg",
-    "index.html": "/index.html",
-    "main.ff6835c7.css.map": "/static/css/main.ff6835c7.css.map",
-    "main.aa9b3f72.js.map": "/static/js/main.aa9b3f72.js.map",
-    "787.0d60e133.chunk.js.map": "/static/js/787.0d60e133.chunk.js.map"
+    "main.css": "/medcur_demo/static/css/main.7da1568e.css",
+    "main.js": "/medcur_demo/static/js/main.fe6286b6.js",
+    "static/js/787.0d60e133.chunk.js": "/medcur_demo/static/js/787.0d60e133.chunk.js",
+    "static/media/slider.jpg": "/medcur_demo/static/media/slider.4a428f9681a39e5ff37a.jpg",
+    "static/media/mision.png": "/medcur_demo/static/media/mision.1bccde9ff1d3fc650f9b.png",
+    "static/media/img1.png": "/medcur_demo/static/media/img1.ed4ca40d36c079a70477.png",
+    "static/media/vision.png": "/medcur_demo/static/media/vision.bc43a96e7c1a8bd101fc.png",
+    "static/media/letras.png": "/medcur_demo/static/media/letras.6d859104950af404b871.png",
+    "static/media/logo_letras_horizontal.png": "/medcur_demo/static/media/logo_letras_horizontal.db4b718793b4d5258554.png",
+    "static/media/personal-medico.png": "/medcur_demo/static/media/personal-medico.50889e3222ae9aebe85a.png",
+    "static/media/logo-login.svg": "/medcur_demo/static/media/logo-login.ff233c1a2761f60e9e5d544c059035e4.svg",
+    "index.html": "/medcur_demo/index.html",
+    "main.7da1568e.css.map": "/medcur_demo/static/css/main.7da1568e.css.map",
+    "main.fe6286b6.js.map": "/medcur_demo/static/js/main.fe6286b6.js.map",
+    "787.0d60e133.chunk.js.map": "/medcur_demo/static/js/787.0d60e133.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff6835c7.css",
-    "static/js/main.aa9b3f72.js"
+    "static/css/main.7da1568e.css",
+    "static/js/main.fe6286b6.js"
   ]
 }
