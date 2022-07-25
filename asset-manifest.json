@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/medcur_demo/static/css/main.65fd6977.css",
-    "main.js": "/medcur_demo/static/js/main.e8e103ca.js",
+    "main.js": "/medcur_demo/static/js/main.5dfecf78.js",
     "static/js/787.0d60e133.chunk.js": "/medcur_demo/static/js/787.0d60e133.chunk.js",
     "static/media/slider.jpg": "/medcur_demo/static/media/slider.4a428f9681a39e5ff37a.jpg",
     "static/media/mision.png": "/medcur_demo/static/media/mision.1bccde9ff1d3fc650f9b.png",
@@ -13,11 +13,11 @@
     "static/media/logo-login.svg": "/medcur_demo/static/media/logo-login.ff233c1a2761f60e9e5d544c059035e4.svg",
     "index.html": "/medcur_demo/index.html",
     "main.65fd6977.css.map": "/medcur_demo/static/css/main.65fd6977.css.map",
-    "main.e8e103ca.js.map": "/medcur_demo/static/js/main.e8e103ca.js.map",
+    "main.5dfecf78.js.map": "/medcur_demo/static/js/main.5dfecf78.js.map",
     "787.0d60e133.chunk.js.map": "/medcur_demo/static/js/787.0d60e133.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65fd6977.css",
-    "static/js/main.e8e103ca.js"
+    "static/js/main.5dfecf78.js"
   ]
 }
